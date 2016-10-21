@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatBot</title>
+  <script>document.createElement("chatLog")</script>
+  <style>
+  chatLog {
+      display: block;
+      background-color: #dddddd;
+      padding: 10px;
+      font-size: 15px;
+      width: 500px;
+  }
+  </style>
+</head>
+<body>
+
+<h1>Mandar's ChatBot</h1>
+<section>
+	<chatLog>Chat log to appear here...</chatLog>
+</section>
+
+<br>
+<br>
+<B>Enter your message here </B> <br>
+	<textarea rows="4" cols="50" id=chatWindow placeholder="Enter your message here...">
+</textarea>
+<br>
+<br>
+<input type="image" src="./images/img_submit.gif" alt="Submit" width="48" height="48">
+&nbsp;&nbsp;
+<input type="image" src="./images/img_reset.jpg" alt="Reset" width="48" height="48" onclick=form.reset();>
+ &nbsp;&nbsp;
+ <input type="image" src="./images/img_exit.jpg" alt="Submit" width="48" height="48">
+
+<br>
+<br>
+
+	<footer>
+		<details>
+				Copyright - Mandar Malunjkar
+				<br><br>
+				ChatBot that reverses a string. Uses WebSocket & HTML 5 on the client side and Node.JS on the server side
+		</details>
+	</footer>
+</body>
+</html>
